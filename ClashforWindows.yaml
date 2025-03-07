@@ -67,57 +67,13 @@ d:    &a5 {type: http,     behavior: domain,    interval: 86400}
 i:    &a7 {type: http,     behavior: ipcidr,    interval: 86400}
 
 proxy-providers:
-  - {name: Hong Kong_1, server: hk01.mmyjiedian.com, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Hong Kong_2, server: hk02.mmyjiedian.com, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Hong Kong_3, server: hk03.mmyjiedian.com, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Hong Kong_4, server: hk04.mmyjiedian.com, port: 10004, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Hong Kong_5, server: hk05.mmyjiedian.com, port: 32605, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Hong Kong_6, server: hk06.mmyjiedian.com, port: 10006, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Hong Kong_7, server: hk07.mmyjiedian.com, port: 10007, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Hong Kong_8, server: hk08.mmyjiedian.com, port: 10008, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Hong Kong_9, server: hk09.mmyjiedian.com, port: 10009, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Hong Kong_10, server: hk10.mmyjiedian.com, port: 10010, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Hong Kong_11, server: hk11.mmyjiedian.com, port: 10011, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Hong Kong_12, server: hk12.mmyjiedian.com, port: 10012, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Japan_1, server: jp01.mmyjiedian.com, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Japan_2, server: jp02.mmyjiedian.com, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Japan_3, server: jp03.mmyjiedian.com, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Japan_4, server: jp04.mmyjiedian.com, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Japan_5, server: jp05.mmyjiedian.com, port: 30005, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Japan_6, server: jp06.mmyjiedian.com, port: 30006, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Japan_7, server: jp07.mmyjiedian.com, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Japan_8, server: jp08.mmyjiedian.com, port: 30008, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Japan_9, server: jp09.mmyjiedian.com, port: 30009, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Japan_10, server: jp10.mmyjiedian.com, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Japan_11, server: jp11.mmyjiedian.com, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Japan_12, server: jp12.mmyjiedian.com, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Japan_13, server: jp13.mmyjiedian.com, port: 30013, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Japan_14, server: jp14.mmyjiedian.com, port: 30014, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Japan_15, server: jp15.mmyjiedian.com, port: 30015, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Singapore_01, server: sg01.mmyjiedian.com, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Singapore_02, server: sg02.mmyjiedian.com, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Singapore_03, server: sg03.mmyjiedian.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Singapore_04, server: sg04.mmyjiedian.com, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Singapore_05, server: sg05.mmyjiedian.com, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Singapore_06, server: sg06.mmyjiedian.com, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Singapore_07, server: sg07.mmyjiedian.com, port: 20007, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Singapore_08, server: sg08.mmyjiedian.com, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Singapore_09, server: sg09.mmyjiedian.com, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: United States_1, server: us01.mmyjiedian.com, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: United States_2, server: us02.mmyjiedian.com, port: 50002, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: United States_3, server: us03.mmyjiedian.com, port: 50003, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: United States_4, server: us04.mmyjiedian.com, port: 50004, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Taiwan_1, server: tw01.mmyjiedian.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Taiwan_2, server: tw03.mmyjiedian.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: 韩国, server: kr01.mmyjiedian.com, port: 40004, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: Vietnam, server: vn02.mmyjiedian.com, port: 40002, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: 瑞典, server: se01.mmyjiedian.com, port: 40050, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: 澳大利亚, server: au01.mmyjiedian.com, port: 40051, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: 马来西亚, server: my01.mmyjiedian.com, port: 40112, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: 印度, server: in01.mmyjiedian.com, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: 印度尼西亚, server: id01.mmyjiedian.com, port: 40033, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: 加拿大, server: ca01.mmyjiedian.com, port: 40023, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
-  - {name: 迪拜, server: ae01.mmyjiedian.com, port: 40029, type: ss, cipher: chacha20-ietf-poly1305, password: 0ddad94e-109e-4a29-b432-05f178d85de4, udp: true}
+  Subscribe:
+    <<: *a1
+    url: https://su1.mmysub.com/api/v1/client/subscribe?token=e5922025f72847c9971e2ba119d25af5
+    # URL后面填写格式1[单一订阅]: 直接填写你的机场Clash订阅[推荐此种方式，避免订阅泄露]
+    # URL后面填写格式2[多个订阅]：https://api.nexconvert.com/sub?target=clash&url=请手动填入你的订阅(多机场订阅用|分割即可)&emoji=true&list=true&new_name=true&udp=false
+    path: ./proxy_providers/tmp.yaml
+    
 proxies: null
 proxy-groups:
 #分流分组
